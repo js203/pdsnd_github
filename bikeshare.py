@@ -56,8 +56,8 @@ def get_filters():
 
     day = input('Please enter the day of the week: all, Monday, Tuesday, ... , Sunday: ').lower()
     while day.lower() not in day_list:
-            print("\nNOK '{}' is not a valid input.".format(day))
-            day = input("\nPlease input all, or a weekday name: \n").lower()
+        print("\nNOK '{}' is not a valid input.".format(day))
+        day = input("\nPlease input all, or a weekday name: \n").lower()
     if day in day_list:
         print("\nOK   >>> '{}' is a valid input <<<\n".format(day.title()))
 
@@ -196,7 +196,7 @@ def viewer(df):
             print(df.iloc[start_loc:start_loc + 5])
             print('-'*40)
             start_loc += 5
-            view_display = input("\nDo you wish to continue? Press 'Enter' to continue input 'no' to exit ").lower()
+            view_display = input("\nDo you wish to continue? Press any key to continue input 'no' to exit ").lower()
             if view_display == 'no':
                 print("\n >> You have ended viewing individual trip data")
                 break
