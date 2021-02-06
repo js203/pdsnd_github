@@ -53,8 +53,8 @@ def get_filters():
 
     day = input('Please enter the day of the week: all, Monday, Tuesday, ... , Sunday: ').lower()
     while day.lower() not in day_list:
-            print("\nNOK '{}' is not a valid input.".format(day))
-            day = input("\nPlease input all, or a weekday name: \n").lower()
+        print("\nNOK '{}' is not a valid input.".format(day))
+        day = input("\nPlease input all, or a weekday name: \n").lower()
     if day in day_list:
         print("\nOK   >>> '{}' is a valid input <<<\n".format(day.title()))
 
