@@ -193,7 +193,7 @@ def viewer(df):
             print(df.iloc[start_loc:start_loc + 5])
             print('-'*40)
             start_loc += 5
-            view_display = input("\nDo you wish to continue? Press 'Enter' to continue input 'no' to exit ").lower()
+            view_display = input("\nDo you wish to continue? Press any key to continue input 'no' to exit ").lower()
             if view_display == 'no':
                 print("\n >> You have ended viewing individual trip data")
                 break
