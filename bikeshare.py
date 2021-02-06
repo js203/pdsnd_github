@@ -16,6 +16,9 @@ day_list = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
+    Common abbreviations and nicknames for the cities and the number displayed in the input message are valid inputs.
+    Check *_aliases for accepted alternative inputs.
+    If okay, the full city name is displayed in the message.
 
     Returns:
         (str) city - name of the city to analyze
