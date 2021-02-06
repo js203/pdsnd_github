@@ -15,3 +15,4 @@ README.md
 
 ### Credits
 This project was created as a part of my Udacity Nanodegree studies
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf is used for basic styling of README.md
